@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emergency Help & Important Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>🚨 Emergency Help</h1>
+        <p>Quick access to important emergency services and first-aid information.</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#contacts">Contacts</a>
+            <a href="#firstaid">First Aid</a>
+            <a href="#request">Request Help</a>
+            <a href="#about">About</a>
+        </nav>
+    </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+    <div class="container">
+        <h2>Emergency Help & Important Contacts System</h2>
+        <p>Find emergency numbers, basic first-aid guidance, and submit a help request.</p>
+        <a class="button" href="#contacts">View Emergency Contacts</a>
+    </div>
+</section>
+
+<section id="contacts" class="section">
+    <div class="container">
+        <h2>📞 Emergency Contacts</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🚓 Police</h3>
+                <p>Emergency Police Assistance</p>
+                <a class="call-button" href="tel:112">Call 112</a>
+            </div>
+
+            <div class="card">
+                <h3>🚑 Ambulance</h3>
+                <p>Medical Emergency</p>
+                <a class="call-button" href="tel:108">Call 108</a>
+            </div>
+
+            <div class="card">
+                <h3>🔥 Fire Brigade</h3>
+                <p>Fire and Rescue Services</p>
+                <a class="call-button" href="tel:101">Call 101</a>
+            </div>
+
+            <div class="card">
+                <h3>🚨 National Emergency</h3>
+                <p>Emergency Response</p>
+                <a class="call-button" href="tel:112">Call 112</a>
+            </div>
+
+            <div class="card">
+                <h3>👩 Women Helpline</h3>
+                <p>Women in distress</p>
+                <a class="call-button" href="tel:181">Call 181</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="firstaid" class="section light">
+    <div class="container">
+        <h2>🩹 Basic First Aid</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>🩸 Cuts & Bleeding</h3>
+                <p>Apply gentle pressure with clean cloth or gauze and seek medical help for serious bleeding.</p>
+            </div>
+
+            <div class="card">
+                <h3>🔥 Burns</h3>
+                <p>Cool the burn under clean running water for about 20 minutes. Do not apply ice directly.</p>
+            </div>
+
+            <div class="card">
+                <h3>😵 Fainting</h3>
+                <p>Help the person lie down safely and seek medical assistance if they do not recover quickly.</p>
+            </div>
+
+            <div class="card">
+                <h3>🫁 Breathing Emergency</h3>
+                <p>Call emergency services immediately and follow instructions from the emergency operator.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="request" class="section">
+    <div class="container">
+        <h2>📝 Emergency Help Request</h2>
+
+        <form id="helpForm">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+
+            <label for="location">Location</label>
+            <input type="text" id="location" placeholder="Enter your location">
+
+            <label for="type">Emergency Type</label>
+            <select id="type">
+                <option value="">Select emergency type</option>
+                <option>Medical Emergency</option>
+                <option>Accident</option>
+                <option>Fire</option>
+                <option>Police Emergency</option>
+                <option>Other</option>
+            </select>
+
+            <label for="details">Emergency Details</label>
+            <textarea id="details" rows="5" placeholder="Describe the emergency"></textarea>
+
+            <button type="submit" class="button">Submit Help Request</button>
+        </form>
+
+        <div id="success" class="success" hidden></div>
+
+        <p class="warning">⚠️ This form records the request on this device only. For an immediate emergency, call the appropriate emergency number.</p>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <div class="container">
+        <h2>📚 About This CEP Project</h2>
+
+        <div class="about-card">
+            <h3>🚨 Emergency Help & Important Contacts System</h3>
+
+            <p>
+                This Community Engagement Project is designed to provide quick access
+                to important emergency services and basic first-aid information.
+            </p>
+
+            <h3>👨‍🎓 Student Details</h3>
+            <p><strong>Name:</strong> Yash Santosh Sakte</p>
+            <p><strong>College:</strong> JVM Mehta College</p>
+            <p><strong>Roll No:</strong> 6247</p>
+            <p><strong>Course:</strong> B.Sc. IT – Third Year</p>
+            <p><strong>Subject:</strong> Community Engagement Project (CEP)</p>
+
+            <h3>⭐ Project Features</h3>
+            <ul class="features-list">
+                <li>🚨 Quick access to emergency contact numbers</li>
+                <li>📞 Direct calling through emergency call buttons</li>
+                <li>🩹 Basic first-aid information</li>
+                <li>📝 Emergency help request form</li>
+                <li>📱 Mobile-friendly and easy-to-use design</li>
+                <li>💾 Request information stored using Local Storage</li>
+            </ul>
+
+            <h3>🤝 How It Helps the Community</h3>
+            <p>
+                This project helps community members quickly access important
+                emergency services and basic first-aid information. It can be
+                useful during accidents, medical emergencies, fire incidents
+                and other urgent situations.
+            </p>
+
+            <h3>🎯 Project Objective</h3>
+            <p>
+                The main objective of this project is to help people quickly find
+                emergency contact numbers and basic first-aid information during
+                emergency situations.
+            </p>
+
+            <h3>🛠️ Technologies Used</h3>
+            <p>HTML, CSS, JavaScript and Local Storage</p>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer>
+    <p>© 2026 Emergency Help & Important Contacts System | CEP Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
